@@ -4,19 +4,29 @@ import jobsData from '../data/jobsData';
 
 // PUBLIC_INTERFACE
 function FilterBar({ filters, onChange }) {
-  /** Sidebar filter controls for location, type, experience, and min salary. */
+  /** Sidebar filter controls for category, location, type, experience, and min salary. */
   const unique = (arr) => Array.from(new Set(arr));
 
+  const categories = useMemo(
+    () => ['All', ...unique(jobsData.map((j) => j.category).filter(Boolean))],
+    []
+  );
   const locations = useMemo(
-    () => ['All', ...unique(jobsData.map((j) => j.location))],
+    () =>
+      [
+        'All',
+        ...unique(
+          jobsData.map((j) => j.location).filter(Boolean)
+        ),
+      ],
     []
   );
   const types = useMemo(
-    () => ['All', ...unique(jobsData.map((j) => j.type))],
+    () => ['All', ...unique(jobsData.map((j) => j.type).filter(Boolean))],
     []
   );
   const experiences = useMemo(
-    () => ['All', ...unique(jobsData.map((j) => j.experience))],
+    () => ['All', ...unique(jobsData.map((j) => j.experience).filter(Boolean))],
     []
   );
 
@@ -71,6 +81,22 @@ function FilterBar({ filters, onChange }) {
 
   return (
     <div>
+      <div style={groupStyle}>
+        <div style={sectionTitle}>Category</div>
+        <select
+          aria-label="Filter by category"
+          value={filters.category || 'All'}
+          onChange={(e) => onChange({ ...filters, category: e.target.value })}
+          style={selectStyle}
+        >
+          {categories.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          ))}
+        </select>
+      </div>
+
       <div style={groupStyle}>
         <div style={sectionTitle}>Location</div>
         <select
@@ -127,8 +153,8 @@ function FilterBar({ filters, onChange }) {
           <input
             type="range"
             min={0}
-            max={250000}
-            step={5000}
+            max={4000000}
+            step={50000}
             value={filters.minSalary}
             onChange={(ev) =>
               onChange({ ...filters, minSalary: Number(ev.target.value) })
@@ -137,7 +163,7 @@ function FilterBar({ filters, onChange }) {
             aria-label="Filter by minimum salary"
           />
           <span style={badgeStyle}>
-            ${filters.minSalary.toLocaleString()}
+            ₹{filters.minSalary.toLocaleString('en-IN')}
           </span>
         </div>
       </div>

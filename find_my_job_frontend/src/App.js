@@ -9,6 +9,7 @@ function App() {
   /** Main App rendering the Find My Job UI with search/filter and job card grid. */
   const [query, setQuery] = useState('');
   const [filters, setFilters] = useState({
+    category: 'All',
     location: 'All',
     type: 'All',
     experience: 'All',
@@ -22,9 +23,14 @@ function App() {
         !q ||
         job.title.toLowerCase().includes(q) ||
         job.company.toLowerCase().includes(q) ||
-        job.location.toLowerCase().includes(q) ||
-        job.description.toLowerCase().includes(q) ||
-        (job.skills || []).some((s) => s.toLowerCase().includes(q));
+        (job.location || '').toLowerCase().includes(q) ||
+        (job.description || '').toLowerCase().includes(q) ||
+        (job.category || '').toLowerCase().includes(q) ||
+        (job.tags || []).some((t) => (t || '').toLowerCase().includes(q)) ||
+        (job.skills || []).some((s) => (s || '').toLowerCase().includes(q));
+
+      const matchesCategory =
+        filters.category === 'All' || job.category === filters.category;
 
       const matchesLocation =
         filters.location === 'All' || job.location === filters.location;
@@ -34,10 +40,13 @@ function App() {
       const matchesExperience =
         filters.experience === 'All' || job.experience === filters.experience;
 
-      const matchesSalary = (job.salary?.min || 0) >= (filters.minSalary || 0);
+      const matchesSalary =
+        (job.salary?.min ?? job.salaryRange?.min ?? 0) >=
+        (filters.minSalary || 0);
 
       return (
         matchesQuery &&
+        matchesCategory &&
         matchesLocation &&
         matchesType &&
         matchesExperience &&
