@@ -15,6 +15,7 @@ const jobsData = [
       'Build and optimize modern web interfaces using React and TypeScript. Collaborate closely with design and backend teams.',
     skills: ['React', 'TypeScript', 'CSS', 'Webpack', 'Testing'],
     tags: ['frontend', 'react', 'spa'],
+    link: 'https://www.linkedin.com/jobs/view/bluewave-frontend-engineer-1'
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ const jobsData = [
       'Design scalable APIs and microservices with Node.js. Experience with databases and cloud platforms preferred.',
     skills: ['Node.js', 'Express', 'PostgreSQL', 'AWS', 'REST'],
     tags: ['backend', 'microservices', 'api'],
+    link: 'https://www.linkedin.com/jobs/view/cloudharbor-backend-engineer-2'
   },
   {
     id: 3,
@@ -47,6 +49,7 @@ const jobsData = [
       'Work across the stack building features end-to-end with React and Node. Strong collaboration in a remote-first team.',
     skills: ['React', 'Node.js', 'GraphQL', 'Docker', 'CI/CD'],
     tags: ['fullstack', 'graphql', 'docker'],
+    link: 'https://www.linkedin.com/jobs/view/oceanic-fullstack-3'
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const jobsData = [
       'Develop data pipelines and ETL processes. Optimize storage and processing for analytics workloads.',
     skills: ['Python', 'Airflow', 'Spark', 'SQL', 'AWS'],
     tags: ['etl', 'pipelines', 'big-data'],
+    link: 'https://www.linkedin.com/jobs/view/tidal-data-engineer-4'
   },
   {
     id: 5,
@@ -79,6 +83,7 @@ const jobsData = [
       'Craft intuitive user experiences and visual designs. Collaborate with engineers to ship polished features.',
     skills: ['Figma', 'UX Research', 'Prototyping', 'Design Systems'],
     tags: ['ux', 'ui', 'prototyping'],
+    link: null
   },
   {
     id: 6,
@@ -95,6 +100,7 @@ const jobsData = [
       'Ensure reliability and performance of production systems. Implement monitoring, alerting, and incident automation.',
     skills: ['Kubernetes', 'Terraform', 'Prometheus', 'Go', 'AWS'],
     tags: ['sre', 'observability', 'iaac'],
+    link: 'https://www.linkedin.com/jobs/view/skyline-sre-6'
   },
   {
     id: 7,
@@ -111,6 +117,7 @@ const jobsData = [
       'Build and maintain React Native applications with a focus on performance and UX.',
     skills: ['React Native', 'JavaScript', 'iOS', 'Android', 'REST'],
     tags: ['mobile', 'react-native'],
+    link: 'https://www.linkedin.com/jobs/view/azureapps-mobile-7'
   },
   {
     id: 8,
@@ -127,6 +134,7 @@ const jobsData = [
       'Automate build and deployment pipelines, infrastructure as code, and environment management.',
     skills: ['CI/CD', 'Docker', 'Kubernetes', 'AWS', 'IaC'],
     tags: ['cicd', 'docker', 'k8s'],
+    link: 'https://www.linkedin.com/jobs/view/harborcloud-devops-8'
   },
   {
     id: 9,
@@ -143,6 +151,7 @@ const jobsData = [
       'Lead cross-functional teams to deliver impactful features. Define roadmap and measure outcomes.',
     skills: ['Roadmapping', 'Agile', 'Analytics', 'Stakeholder Mgmt'],
     tags: ['product', 'agile', 'roadmap'],
+    link: null
   },
   {
     id: 10,
@@ -159,6 +168,7 @@ const jobsData = [
       'Build security tooling, conduct audits, and partner with teams to reduce risk across the SDLC.',
     skills: ['AppSec', 'Threat Modeling', 'Node.js', 'AWS', 'SIEM'],
     tags: ['security', 'appsec'],
+    link: 'https://www.linkedin.com/jobs/view/deepblue-security-engineer-10'
   },
 
   // Data

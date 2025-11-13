@@ -93,7 +93,7 @@ function JobCard({ job }) {
     border: '1px solid rgba(59,130,246,0.25)',
   };
 
-  const applyBtn = {
+  const applyBtnBase = {
     marginTop: 12,
     padding: '10px 12px',
     width: '100%',
@@ -107,7 +107,7 @@ function JobCard({ job }) {
     letterSpacing: '0.02em',
     cursor: 'pointer',
     boxShadow: '0 8px 18px rgba(37,99,235,0.25)',
-    transition: 'transform 150ms ease, box-shadow 150ms ease',
+    transition: 'transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease',
   };
 
   const applyHover = {
@@ -117,6 +117,23 @@ function JobCard({ job }) {
 
   const [hover, setHover] = React.useState(false);
   const [btnHover, setBtnHover] = React.useState(false);
+
+  // PUBLIC_INTERFACE
+  const handleApply = () => {
+    /** Opens job.link in a new tab or alerts user if link is missing. */
+    if (job && job.link) {
+      window.open(job.link, '_blank', 'noopener,noreferrer');
+    } else {
+      window.alert('Apply link coming soon for this listing.');
+    }
+  };
+
+  const hasLink = Boolean(job && job.link);
+  const applyBtnStyle = {
+    ...applyBtnBase,
+    ...(btnHover ? applyHover : null),
+    ...(hasLink ? null : { opacity: 0.75 }) // subtle disabled style hint
+  };
 
   return (
     <article
@@ -155,10 +172,12 @@ function JobCard({ job }) {
 
       <button
         type="button"
-        style={{ ...applyBtn, ...(btnHover ? applyHover : null) }}
+        style={applyBtnStyle}
         onMouseEnter={() => setBtnHover(true)}
         onMouseLeave={() => setBtnHover(false)}
-        onClick={() => window.alert('Apply flow is not implemented in this demo.')}
+        onClick={handleApply}
+        title={hasLink ? 'Open application link' : 'Link coming soon'}
+        aria-label="Apply to this job"
       >
         Apply Now
       </button>
