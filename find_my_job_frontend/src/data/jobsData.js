@@ -83,7 +83,7 @@ const jobsData = [
       'Craft intuitive user experiences and visual designs. Collaborate with engineers to ship polished features.',
     skills: ['Figma', 'UX Research', 'Prototyping', 'Design Systems'],
     tags: ['ux', 'ui', 'prototyping'],
-    link: null
+    link: 'https://www.linkedin.com/jobs/view/ux-designer-at-sapphire-studios-5'
   },
   {
     id: 6,
@@ -151,7 +151,7 @@ const jobsData = [
       'Lead cross-functional teams to deliver impactful features. Define roadmap and measure outcomes.',
     skills: ['Roadmapping', 'Agile', 'Analytics', 'Stakeholder Mgmt'],
     tags: ['product', 'agile', 'roadmap'],
-    link: null
+    link: 'https://www.linkedin.com/jobs/view/product-manager-at-marinaworks-9'
   },
   {
     id: 10,
@@ -187,6 +187,7 @@ const jobsData = [
       'Apply ML techniques to build predictive models and drive insights for product and marketing teams.',
     skills: ['Python', 'Pandas', 'Scikit-learn', 'SQL', 'Statistics'],
     tags: ['ml', 'predictive', 'analytics'],
+    link: 'https://www.indeed.com/viewjob?jk=insight-bay-data-scientist-11'
   },
   {
     id: 12,
@@ -203,6 +204,7 @@ const jobsData = [
       'Build dashboards and analyze business KPIs. Work closely with stakeholders to provide data-driven insights.',
     skills: ['SQL', 'Power BI', 'Excel', 'Data Modeling'],
     tags: ['bi', 'dashboards'],
+    link: 'https://www.naukri.com/job-listings-bi-analyst-northstar-analytics-12'
   },
   {
     id: 13,
@@ -219,6 +221,7 @@ const jobsData = [
       'Productionize ML models, optimize inference, and manage model lifecycle with MLOps best practices.',
     skills: ['Python', 'TensorFlow', 'PyTorch', 'Docker', 'AWS'],
     tags: ['mlops', 'inference', 'models'],
+    link: 'https://www.linkedin.com/jobs/view/ml-engineer-at-cobalt-ai-13'
   },
 
   // Product
@@ -237,6 +240,7 @@ const jobsData = [
       'Assist senior PMs with user research, requirement gathering, and backlog grooming.',
     skills: ['User Research', 'Communication', 'Documentation'],
     tags: ['apm', 'internship'],
+    link: 'https://www.linkedin.com/jobs/view/associate-product-manager-intern-at-wavecraft-14'
   },
   {
     id: 15,
@@ -253,6 +257,7 @@ const jobsData = [
       'Own product strategy and execution for a core product area. Lead discovery and delivery using data-driven decisions.',
     skills: ['Strategy', 'Roadmapping', 'Analytics', 'Leadership'],
     tags: ['ownership', 'strategy'],
+    link: 'https://www.indeed.com/viewjob?jk=harbor-suite-senior-product-manager-15'
   },
 
   // Marketing
@@ -271,6 +276,7 @@ const jobsData = [
       'Drive user acquisition through paid channels, SEO, and lifecycle marketing.',
     skills: ['SEO', 'Google Ads', 'Analytics', 'CRM'],
     tags: ['growth', 'seo', 'paid'],
+    link: 'https://www.linkedin.com/jobs/view/growth-marketer-at-swell-labs-16'
   },
   {
     id: 17,
@@ -287,6 +293,7 @@ const jobsData = [
       'Plan and deliver content calendars for blog, email, and social channels with a focus on conversion.',
     skills: ['Copywriting', 'Editorial', 'SEO', 'Analytics'],
     tags: ['content', 'editorial'],
+    link: 'https://www.naukri.com/job-listings-content-strategist-marine-media-17'
   },
 
   // Sales
@@ -305,6 +312,7 @@ const jobsData = [
       'Prospect and qualify leads, book demos, and collaborate with AEs for pipeline generation.',
     skills: ['Prospecting', 'Cold Outreach', 'CRM'],
     tags: ['sdr', 'leads'],
+    link: 'https://www.linkedin.com/jobs/view/sales-development-representative-at-pelagic-crm-18'
   },
   {
     id: 19,
@@ -321,6 +329,7 @@ const jobsData = [
       'Own the sales cycle from demo to close. Maintain strong relationships and exceed quarterly targets.',
     skills: ['Demo', 'Negotiation', 'Forecasting'],
     tags: ['sales', 'closing'],
+    link: 'https://www.indeed.com/viewjob?jk=tidesoft-account-executive-19'
   },
 
   // QA
@@ -339,6 +348,7 @@ const jobsData = [
       'Design and execute manual and automated test cases to ensure product quality.',
     skills: ['Selenium', 'Cypress', 'Test Plans', 'Jest'],
     tags: ['automation', 'testing'],
+    link: 'https://www.naukri.com/job-listings-qa-engineer-clearbay-qa-20'
   },
   {
     id: 21,
@@ -355,6 +365,7 @@ const jobsData = [
       'Build and maintain test automation frameworks and CI integrations for quality at scale.',
     skills: ['Java', 'Selenium', 'JUnit', 'CI/CD'],
     tags: ['sdet', 'frameworks'],
+    link: 'https://www.linkedin.com/jobs/view/sdet-at-aqua-quality-21'
   },
 
   // Support
@@ -373,6 +384,7 @@ const jobsData = [
       'Assist customers via chat and email. Troubleshoot issues and document solutions.',
     skills: ['Communication', 'Troubleshooting', 'Zendesk'],
     tags: ['support', 'csat'],
+    link: 'https://www.indeed.com/viewjob?jk=harbor-help-customer-support-22'
   },
   {
     id: 23,
@@ -389,6 +401,7 @@ const jobsData = [
       'Resolve technical issues, work with engineering for escalations, and improve support documentation.',
     skills: ['Linux', 'Networking', 'Scripting'],
     tags: ['l2', 'tech-support'],
+    link: 'https://www.linkedin.com/jobs/view/technical-support-engineer-at-blueanchor-23'
   },
 
   // Design
@@ -407,6 +420,7 @@ const jobsData = [
       'Design end-to-end product experiences with strong visual design and systems thinking.',
     skills: ['Figma', 'Design Systems', 'Prototyping', 'UX'],
     tags: ['product-design', 'systems'],
+    link: 'https://www.naukri.com/job-listings-product-designer-coral-design-24'
   },
   {
     id: 25,
@@ -423,6 +437,7 @@ const jobsData = [
       'Create brand-aligned visuals for marketing campaigns and product communication.',
     skills: ['Illustrator', 'Photoshop', 'Branding'],
     tags: ['visual', 'branding'],
+    link: 'https://www.linkedin.com/jobs/view/visual-designer-at-pacific-studio-25'
   },
 
   // Additional Engineering roles for diversity
@@ -441,6 +456,7 @@ const jobsData = [
       'Build performant services in Go with focus on concurrency and reliability.',
     skills: ['Go', 'gRPC', 'Kubernetes', 'PostgreSQL'],
     tags: ['golang', 'grpc'],
+    link: 'https://www.indeed.com/viewjob?jk=reef-systems-golang-engineer-26'
   },
   {
     id: 27,
@@ -457,6 +473,7 @@ const jobsData = [
       'Develop high throughput services using Spring Boot and Kafka.',
     skills: ['Java', 'Spring Boot', 'Kafka', 'SQL'],
     tags: ['java', 'spring', 'kafka'],
+    link: 'https://www.linkedin.com/jobs/view/java-engineer-at-tsunami-tech-27'
   },
   {
     id: 28,
@@ -473,6 +490,7 @@ const jobsData = [
       'Build native iOS applications with Swift and SwiftUI.',
     skills: ['Swift', 'SwiftUI', 'CocoaPods', 'REST'],
     tags: ['ios', 'swift'],
+    link: 'https://www.naukri.com/job-listings-ios-engineer-bluefin-mobile-28'
   },
   {
     id: 29,
@@ -489,6 +507,7 @@ const jobsData = [
       'Build and maintain Android apps with Kotlin, focusing on performance and stability.',
     skills: ['Kotlin', 'Jetpack', 'MVVM'],
     tags: ['android', 'kotlin'],
+    link: 'https://www.linkedin.com/jobs/view/android-engineer-at-harbor-droid-29'
   },
 
   // DevOps/Infra
@@ -507,6 +526,7 @@ const jobsData = [
       'Design cloud-native architectures with reliability and cost efficiency.',
     skills: ['AWS', 'Azure', 'GCP', 'Kubernetes', 'Networking'],
     tags: ['cloud', 'architecture'],
+    link: 'https://www.indeed.com/viewjob?jk=azureharbor-cloud-architect-30'
   },
   {
     id: 31,
@@ -523,6 +543,7 @@ const jobsData = [
       'Build internal platforms to improve developer velocity and reliability.',
     skills: ['Kubernetes', 'Helm', 'GitOps', 'ArgoCD'],
     tags: ['platform', 'gitops'],
+    link: 'https://www.linkedin.com/jobs/view/platform-engineer-at-bluesphere-31'
   },
 
   // QA/Automation
@@ -541,6 +562,7 @@ const jobsData = [
       'Design and run load and stress tests, analyze performance bottlenecks.',
     skills: ['JMeter', 'k6', 'APM', 'Scripting'],
     tags: ['performance', 'load-test'],
+    link: 'https://www.naukri.com/job-listings-performance-test-engineer-wavebench-32'
   },
 
   // Support/Success
@@ -559,6 +581,7 @@ const jobsData = [
       'Drive product adoption, retention, and growth with strategic customers.',
     skills: ['Relationship Mgmt', 'Upsell', 'Onboarding'],
     tags: ['success', 'retention'],
+    link: 'https://www.linkedin.com/jobs/view/customer-success-manager-at-harbor-success-33'
   },
 
   // Marketing/Sales extras
@@ -577,6 +600,7 @@ const jobsData = [
       'Assist with campaign setup, reporting, and social media content.',
     skills: ['SEO', 'Canva', 'Analytics'],
     tags: ['intern', 'digital'],
+    link: 'https://www.indeed.com/viewjob?jk=aquamark-digital-marketing-intern-34'
   },
   {
     id: 35,
@@ -593,6 +617,7 @@ const jobsData = [
       'Lead enterprise deals and manage strategic accounts across regions.',
     skills: ['Enterprise Sales', 'Negotiation', 'RFP'],
     tags: ['enterprise', 'b2b'],
+    link: 'https://www.linkedin.com/jobs/view/enterprise-sales-manager-at-blueledger-35'
   },
 
   // Data/Analytics extras
@@ -611,6 +636,7 @@ const jobsData = [
       'Analyze product and marketing funnels, build reporting, and run ad-hoc analyses.',
     skills: ['SQL', 'Tableau', 'Excel', 'Python'],
     tags: ['analytics', 'reporting'],
+    link: 'https://www.naukri.com/job-listings-data-analyst-coral-metrics-36'
   },
 
   // Product/Design extras
@@ -629,6 +655,7 @@ const jobsData = [
       'Plan and conduct user research to inform product direction.',
     skills: ['User Interviews', 'Usability Testing', 'Synthesis'],
     tags: ['research', 'ux'],
+    link: 'https://www.linkedin.com/jobs/view/design-researcher-at-tide-ux-37'
   },
   {
     id: 38,
@@ -645,6 +672,7 @@ const jobsData = [
       'Improve product execution through tooling, process, and analytics.',
     skills: ['SQL', 'Notion', 'Jira', 'Automation'],
     tags: ['prod-ops', 'process'],
+    link: 'https://www.indeed.com/viewjob?jk=waveops-product-operations-analyst-38'
   },
 
   // Engineering extras
@@ -663,6 +691,7 @@ const jobsData = [
       'Build developer demos, write tutorials, and engage with the developer community.',
     skills: ['JavaScript', 'Writing', 'Public Speaking'],
     tags: ['devrel', 'content'],
+    link: 'https://www.linkedin.com/jobs/view/devrel-engineer-at-harbor-dev-39'
   },
   {
     id: 40,
@@ -679,6 +708,7 @@ const jobsData = [
       'Work on low-level systems, performance tuning, and reliability.',
     skills: ['Linux', 'C/C++', 'Networking', 'Performance'],
     tags: ['systems', 'performance'],
+    link: 'https://www.naukri.com/job-listings-systems-engineer-mariner-systems-40'
   },
 
   // Finance
@@ -697,6 +727,7 @@ const jobsData = [
       'Own FP&A activities, budgeting, forecasting, and monthly variance analysis.',
     skills: ['Excel', 'Financial Modeling', 'SQL', 'Power BI'],
     tags: ['fp&a', 'forecasting'],
+    link: 'https://www.indeed.com/viewjob?jk=coral-finance-analyst-41'
   },
   {
     id: 42,
@@ -713,6 +744,7 @@ const jobsData = [
       'Manage GL, month-end close, statutory compliance, and audit support.',
     skills: ['Tally', 'Compliance', 'IFRS', 'Taxation'],
     tags: ['accounting', 'audit'],
+    link: 'https://www.linkedin.com/jobs/view/senior-accountant-at-baybooks-42'
   },
 
   // HR
@@ -731,6 +763,7 @@ const jobsData = [
       'Handle recruitment, onboarding, employee engagement, and HR operations.',
     skills: ['Recruitment', 'Onboarding', 'HRIS'],
     tags: ['people', 'hr-ops'],
+    link: 'https://www.naukri.com/job-listings-hr-generalist-harbor-people-43'
   },
   {
     id: 44,
@@ -747,6 +780,7 @@ const jobsData = [
       'Source, screen, and manage the hiring pipeline for tech and non-tech roles.',
     skills: ['Sourcing', 'ATS', 'Interviewing'],
     tags: ['recruiting', 'talent'],
+    link: 'https://www.linkedin.com/jobs/view/talent-acquisition-specialist-at-bluehire-44'
   },
 
   // Operations
@@ -765,6 +799,7 @@ const jobsData = [
       'Optimize processes, manage SLAs, and lead cross-functional initiatives for operational excellence.',
     skills: ['Process Improvement', 'Lean', 'Stakeholder Mgmt'],
     tags: ['ops', 'process'],
+    link: 'https://www.indeed.com/viewjob?jk=marina-ops-operations-manager-45'
   },
   {
     id: 46,
@@ -781,6 +816,7 @@ const jobsData = [
       'Build operational dashboards, automate workflows, and track business KPIs.',
     skills: ['SQL', 'Excel', 'Zapier', 'Python'],
     tags: ['bizops', 'automation'],
+    link: 'https://www.naukri.com/job-listings-business-operations-analyst-blueops-46'
   },
 
   // Engineering/AI new
@@ -799,6 +835,7 @@ const jobsData = [
       'Design and integrate LLM-powered features, optimize prompts, and evaluate model performance.',
     skills: ['Python', 'LLMs', 'Vector DBs', 'Prompt Engineering'],
     tags: ['genai', 'nlp'],
+    link: 'https://www.linkedin.com/jobs/view/generative-ai-engineer-at-azuremind-47'
   },
   {
     id: 48,
@@ -815,6 +852,7 @@ const jobsData = [
       'Own the data platform stack with ingestion, orchestration, governance, and cost controls.',
     skills: ['Airflow', 'Spark', 'Lakehouse', 'DBT'],
     tags: ['platform', 'data-eng'],
+    link: 'https://www.indeed.com/viewjob?jk=harbor-data-platform-engineer-48'
   },
 
   // Design/Content new
@@ -833,6 +871,7 @@ const jobsData = [
       'Evolve the component library, maintain tokens, and ensure accessibility compliance.',
     skills: ['Figma', 'Design Tokens', 'Accessibility'],
     tags: ['design-system', 'a11y'],
+    link: 'https://www.naukri.com/job-listings-ui-designer-design-systems-coral-ui-49'
   },
   {
     id: 50,
@@ -849,6 +888,7 @@ const jobsData = [
       'Craft clear, concise product copy to guide users and enhance conversions.',
     skills: ['Microcopy', 'Content Strategy', 'UX'],
     tags: ['ux-writing', 'content'],
+    link: 'https://www.linkedin.com/jobs/view/ux-writer-at-bluevoice-50'
   },
 
   // Product new
@@ -867,6 +907,7 @@ const jobsData = [
       'Drive complex cross-team programs with clear timelines, dependencies, and risks.',
     skills: ['Program Mgmt', 'Risk Mgmt', 'Agile'],
     tags: ['tpm', 'delivery'],
+    link: 'https://www.indeed.com/viewjob?jk=wave-tpm-technical-program-manager-51'
   },
   {
     id: 52,
@@ -883,6 +924,7 @@ const jobsData = [
       'Partner with PMs to define metrics, build dashboards, and run experiments.',
     skills: ['SQL', 'A/B Testing', 'Analytics'],
     tags: ['experimentation', 'metrics'],
+    link: 'https://www.naukri.com/job-listings-product-analyst-tide-insights-52'
   },
 
   // Marketing new
@@ -901,6 +943,7 @@ const jobsData = [
       'Lead on-page and technical SEO initiatives to grow organic traffic.',
     skills: ['SEO', 'GA4', 'Search Console'],
     tags: ['seo', 'organic'],
+    link: 'https://www.linkedin.com/jobs/view/seo-specialist-at-harbor-growth-53'
   },
   {
     id: 54,
@@ -917,6 +960,7 @@ const jobsData = [
       'Build multi-channel lifecycle journeys across email, push, and in-app.',
     skills: ['CRM', 'Segmentation', 'Automation'],
     tags: ['lifecycle', 'crm'],
+    link: 'https://www.indeed.com/viewjob?jk=blueloop-lifecycle-marketing-manager-54'
   },
 
   // Sales new
@@ -935,6 +979,7 @@ const jobsData = [
       'Optimize the sales funnel with forecasting, territory planning, and tooling.',
     skills: ['Salesforce', 'Excel', 'Analytics'],
     tags: ['sales-ops', 'forecasting'],
+    link: 'https://www.naukri.com/job-listings-sales-operations-analyst-aquasales-55'
   },
   {
     id: 56,
@@ -951,6 +996,7 @@ const jobsData = [
       'Source, negotiate, and activate strategic partnerships to open new channels.',
     skills: ['Negotiation', 'BD', 'Contracts'],
     tags: ['partnerships', 'alliances'],
+    link: 'https://www.linkedin.com/jobs/view/partnerships-manager-at-blueallies-56'
   },
 
   // DevOps new
@@ -969,6 +1015,7 @@ const jobsData = [
       'Support CI/CD pipelines, write scripts, and assist with containerization tasks.',
     skills: ['Bash', 'Docker', 'GitHub Actions'],
     tags: ['intern', 'devops'],
+    link: 'https://www.indeed.com/viewjob?jk=harborops-devops-intern-57'
   },
   {
     id: 58,
@@ -985,6 +1032,7 @@ const jobsData = [
       'Coordinate release cycles, maintain change logs, and ensure rollback readiness.',
     skills: ['Change Mgmt', 'Jira', 'CI/CD'],
     tags: ['release', 'ci'],
+    link: 'https://www.naukri.com/job-listings-release-manager-azureship-58'
   },
 
   // QA new
@@ -1003,6 +1051,7 @@ const jobsData = [
       'Build robust end-to-end test suites with Playwright and integrate with CI.',
     skills: ['Playwright', 'TypeScript', 'CI'],
     tags: ['automation', 'e2e'],
+    link: 'https://www.linkedin.com/jobs/view/automation-engineer-playwright-at-waveqa-59'
   },
   {
     id: 60,
@@ -1019,6 +1068,7 @@ const jobsData = [
       'Assist with test case creation, exploratory testing, and bug triage.',
     skills: ['Test Cases', 'Jira', 'Communication'],
     tags: ['intern', 'qa'],
+    link: 'https://www.indeed.com/viewjob?jk=clearharbor-qa-intern-60'
   },
 
   // Support new
@@ -1037,6 +1087,7 @@ const jobsData = [
       'Manage a team of support specialists, define SLAs, and improve deflection through knowledge base.',
     skills: ['Leadership', 'SLA Mgmt', 'Zendesk'],
     tags: ['support', 'lead'],
+    link: 'https://www.naukri.com/job-listings-support-team-lead-harbor-care-61'
   },
   {
     id: 62,
@@ -1053,6 +1104,7 @@ const jobsData = [
       'Engage with users across forums and social platforms to resolve issues and gather feedback.',
     skills: ['Community Mgmt', 'Social', 'Writing'],
     tags: ['community', 'support'],
+    link: 'https://www.linkedin.com/jobs/view/community-support-specialist-at-bluecommunity-62'
   },
 
   // HR new
@@ -1071,6 +1123,7 @@ const jobsData = [
       'Partner with business leaders on org design, performance cycles, and compensation planning.',
     skills: ['Performance Mgmt', 'Comp & Ben', 'Org Design'],
     tags: ['hrbp', 'people'],
+    link: 'https://www.indeed.com/viewjob?jk=tidepeople-hrbp-63'
   },
   {
     id: 64,
@@ -1087,6 +1140,7 @@ const jobsData = [
       'Design and deliver learning programs, track effectiveness, and manage vendors.',
     skills: ['Instructional Design', 'Facilitation', 'LMS'],
     tags: ['learning', 'training'],
+    link: 'https://www.naukri.com/job-listings-learning-and-development-specialist-bluelearn-64'
   },
 
   // Finance new
@@ -1105,6 +1159,7 @@ const jobsData = [
       'Run payroll cycles, manage reimbursements, and ensure compliance with labor laws.',
     skills: ['Payroll', 'Compliance', 'Excel'],
     tags: ['payroll', 'finance'],
+    link: 'https://www.linkedin.com/jobs/view/payroll-specialist-at-harbor-pay-65'
   },
   {
     id: 66,
@@ -1121,6 +1176,7 @@ const jobsData = [
       'Own invoicing, receivables follow-ups, vendor payments, and reconciliations.',
     skills: ['Tally', 'Invoicing', 'Reconciliation'],
     tags: ['ar', 'ap'],
+    link: 'https://www.indeed.com/viewjob?jk=coral-books-ar-ap-executive-66'
   },
 
   // Engineering additional
@@ -1139,6 +1195,7 @@ const jobsData = [
       'Develop REST and GraphQL services with FastAPI, performance tuning, and observability.',
     skills: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
     tags: ['python', 'backend'],
+    link: 'https://www.naukri.com/job-listings-python-backend-engineer-bluepython-67'
   },
   {
     id: 68,
@@ -1155,6 +1212,7 @@ const jobsData = [
       'Implement feature-rich SPAs using Vue 3, Pinia, and Vite.',
     skills: ['Vue', 'TypeScript', 'Vite', 'Testing'],
     tags: ['frontend', 'vue'],
+    link: 'https://www.linkedin.com/jobs/view/frontend-engineer-vue-at-azureui-68'
   },
   {
     id: 69,
@@ -1171,6 +1229,7 @@ const jobsData = [
       'Develop firmware for IoT devices, optimize for power and memory constraints.',
     skills: ['C', 'RTOS', 'SPI/I2C', 'ARM'],
     tags: ['embedded', 'iot'],
+    link: 'https://www.indeed.com/viewjob?jk=harbor-embedded-systems-engineer-69'
   },
   {
     id: 70,
@@ -1187,6 +1246,7 @@ const jobsData = [
       'Lead mobile QA strategy, automation coverage, and release quality.',
     skills: ['Appium', 'Kotlin', 'Swift', 'CI'],
     tags: ['mobile-qa', 'automation'],
+    link: 'https://www.naukri.com/job-listings-qa-lead-mobile-wavemobile-70'
   },
   {
     id: 71,
@@ -1203,6 +1263,7 @@ const jobsData = [
       'Support SDKs and CLIs for developers, triage GitHub issues, and write solutions.',
     skills: ['Git', 'CLI', 'JavaScript'],
     tags: ['devtools', 'support'],
+    link: 'https://www.linkedin.com/jobs/view/support-engineer-developer-tools-at-bluedevtools-71'
   },
   {
     id: 72,
@@ -1219,6 +1280,7 @@ const jobsData = [
       'Provide customer support for US time zones; email-first with occasional calls.',
     skills: ['Email Support', 'English Proficiency', 'CRM'],
     tags: ['night-shift', 'support'],
+    link: 'https://www.indeed.com/viewjob?jk=harbor-assist-customer-support-night-shift-72'
   },
 
   // Product/Operations new
@@ -1237,6 +1299,7 @@ const jobsData = [
       'Facilitate scrum ceremonies, remove impediments, and improve team throughput.',
     skills: ['Scrum', 'Facilitation', 'Jira'],
     tags: ['agile', 'scrum'],
+    link: 'https://www.naukri.com/job-listings-scrum-master-aqua-agile-73'
   },
   {
     id: 74,
@@ -1253,6 +1316,7 @@ const jobsData = [
       'Manage vendor evaluations, negotiations, and purchase orders with budget adherence.',
     skills: ['Negotiation', 'Vendor Mgmt', 'Compliance'],
     tags: ['procurement', 'vendor'],
+    link: 'https://www.linkedin.com/jobs/view/procurement-specialist-at-coral-ops-74'
   },
 
   // Engineering/SRE new
@@ -1271,6 +1335,7 @@ const jobsData = [
       'Build logging, metrics, and tracing pipelines; create golden signals dashboards.',
     skills: ['Prometheus', 'Grafana', 'OpenTelemetry'],
     tags: ['observability', 'sre'],
+    link: 'https://www.indeed.com/viewjob?jk=bluesignal-observability-engineer-75'
   },
   {
     id: 76,
@@ -1287,6 +1352,7 @@ const jobsData = [
       'Manage infra-as-code, network policies, and cost optimization across clouds.',
     skills: ['Terraform', 'AWS', 'Azure', 'FinOps'],
     tags: ['infra', 'iac'],
+    link: 'https://www.naukri.com/job-listings-infrastructure-engineer-harbor-infra-76'
   },
 
   // Data Science new
@@ -1305,6 +1371,7 @@ const jobsData = [
       'Model business logic in the warehouse, maintain marts, and ensure data quality.',
     skills: ['DBT', 'SQL', 'Data Modeling'],
     tags: ['analytics-eng', 'dbt'],
+    link: 'https://www.linkedin.com/jobs/view/analytics-engineer-at-tide-warehouse-77'
   },
   {
     id: 78,
@@ -1321,6 +1388,7 @@ const jobsData = [
       'Advance NLP capabilities in summarization and RAG; publish and productionize.',
     skills: ['PyTorch', 'Transformers', 'Evaluation'],
     tags: ['nlp', 'research'],
+    link: 'https://www.indeed.com/viewjob?jk=blueresearch-research-scientist-nlp-78'
   },
 
   // Marketing/Social new
@@ -1339,6 +1407,7 @@ const jobsData = [
       'Own social strategy, content calendars, and community engagement across platforms.',
     skills: ['Content', 'Analytics', 'Brand'],
     tags: ['social', 'brand'],
+    link: 'https://www.naukri.com/job-listings-social-media-manager-aquabrand-79'
   },
   {
     id: 80,
@@ -1355,6 +1424,7 @@ const jobsData = [
       'Scale paid channels with CAC guardrails; experimentation and creative testing.',
     skills: ['Google Ads', 'Meta Ads', 'Attribution'],
     tags: ['paid', 'performance'],
+    link: 'https://www.linkedin.com/jobs/view/performance-marketing-manager-at-harbor-ads-80'
   },
 
   // Appended dataset: IDs 81–180
@@ -1374,6 +1444,7 @@ const jobsData = [
       'Develop modern React apps with performance and accessibility best practices.',
     skills: ['React', 'TypeScript', 'Redux', 'Accessibility', 'Jest'],
     tags: ['frontend', 'react'],
+    link: 'https://www.indeed.com/viewjob?jk=aquaui-frontend-engineer-react-81'
   },
   {
     id: 82,
@@ -1390,6 +1461,7 @@ const jobsData = [
       'Design and build scalable REST/GraphQL services with Node.js.',
     skills: ['Node.js', 'Express', 'GraphQL', 'PostgreSQL', 'Redis'],
     tags: ['backend', 'api'],
+    link: 'https://www.linkedin.com/jobs/view/backend-engineer-node-js-at-blueapi-82'
   },
   {
     id: 83,
@@ -1406,6 +1478,7 @@ const jobsData = [
       'Deliver end-to-end features using MongoDB, Express, React, and Node.',
     skills: ['React', 'Node.js', 'MongoDB', 'CI/CD', 'Docker'],
     tags: ['fullstack', 'mern'],
+    link: 'https://www.naukri.com/job-listings-full-stack-developer-mern-harborstack-83'
   },
   {
     id: 84,
@@ -1422,6 +1495,7 @@ const jobsData = [
       'Implement enterprise Angular apps with RxJS and state management.',
     skills: ['Angular', 'RxJS', 'TypeScript', 'SCSS'],
     tags: ['frontend', 'angular'],
+    link: 'https://www.indeed.com/viewjob?jk=coralapps-frontend-engineer-angular-84'
   },
   {
     id: 85,
@@ -1438,6 +1512,7 @@ const jobsData = [
       'Build robust APIs and services using .NET 7 and Azure services.',
     skills: ['C#', '.NET', 'SQL Server', 'Azure', 'Microservices'],
     tags: ['dotnet', 'azure'],
+    link: 'https://www.linkedin.com/jobs/view/software-engineer-c-net-at-bluedot-systems-85'
   },
   {
     id: 86,
@@ -1454,6 +1529,7 @@ const jobsData = [
       'Create high-performance Go services with gRPC and Kubernetes.',
     skills: ['Go', 'gRPC', 'Kubernetes', 'PostgreSQL', 'Observability'],
     tags: ['golang', 'grpc'],
+    link: 'https://www.naukri.com/job-listings-golang-backend-engineer-azurechannel-86'
   },
   {
     id: 87,
@@ -1470,6 +1546,7 @@ const jobsData = [
       'Build delightful interfaces with SvelteKit and modern tooling.',
     skills: ['Svelte', 'SvelteKit', 'TypeScript', 'Vite'],
     tags: ['frontend', 'svelte'],
+    link: 'https://www.indeed.com/viewjob?jk=tideui-frontend-engineer-svelte-87'
   },
   {
     id: 88,
@@ -1486,6 +1563,7 @@ const jobsData = [
       'Develop tooling to improve developer productivity and reliability.',
     skills: ['Kubernetes', 'Helm', 'ArgoCD', 'Backstage'],
     tags: ['platform', 'internal-tools'],
+    link: 'https://www.linkedin.com/jobs/view/platform-engineer-internal-tools-at-harborplatform-88'
   },
   {
     id: 89,
@@ -1502,6 +1580,7 @@ const jobsData = [
       'Develop cross-platform mobile apps using Flutter and Dart.',
     skills: ['Flutter', 'Dart', 'REST', 'Firebase'],
     tags: ['mobile', 'flutter'],
+    link: 'https://www.naukri.com/job-listings-mobile-developer-flutter-bluemobile-89'
   },
   {
     id: 90,
@@ -1518,6 +1597,7 @@ const jobsData = [
       'Implement security controls, threat detection, and continuous hardening.',
     skills: ['SIEM', 'Threat Modeling', 'AWS', 'KMS', 'AppSec'],
     tags: ['security', 'blue-team'],
+    link: 'https://www.indeed.com/viewjob?jk=aquasecure-security-engineer-blue-team-90'
   },
 
   // Data (91–100)
@@ -1536,6 +1616,7 @@ const jobsData = [
       'Build resilient ETL pipelines using Spark and Airflow on the lakehouse.',
     skills: ['Spark', 'Airflow', 'Delta Lake', 'AWS', 'SQL'],
     tags: ['etl', 'spark'],
+    link: 'https://www.linkedin.com/jobs/view/data-engineer-spark-at-coraldata-91'
   },
   {
     id: 92,
@@ -1552,6 +1633,7 @@ const jobsData = [
       'Build and deploy computer vision models for image understanding tasks.',
     skills: ['PyTorch', 'OpenCV', 'MLOps', 'Python'],
     tags: ['cv', 'ml'],
+    link: 'https://www.naukri.com/job-listings-data-scientist-cv-bluevision-92'
   },
   {
     id: 93,
@@ -1568,6 +1650,7 @@ const jobsData = [
       'Create compelling BI dashboards and optimize semantic layers.',
     skills: ['Power BI', 'DAX', 'SQL', 'Modeling'],
     tags: ['bi', 'dashboards'],
+    link: 'https://www.indeed.com/viewjob?jk=harborbi-bi-developer-93'
   },
   {
     id: 94,
@@ -1584,6 +1667,7 @@ const jobsData = [
       'Develop and optimize NLP pipelines with transformer models.',
     skills: ['Transformers', 'Python', 'FastAPI', 'Docker'],
     tags: ['nlp', 'mlops'],
+    link: 'https://www.linkedin.com/jobs/view/ml-engineer-nlp-at-aquamlp-94'
   },
   {
     id: 95,
@@ -1600,6 +1684,7 @@ const jobsData = [
       'Analyze product usage, define metrics, and build self-serve reports.',
     skills: ['SQL', 'Tableau', 'Python', 'A/B Testing'],
     tags: ['analytics', 'product'],
+    link: 'https://www.naukri.com/job-listings-data-analyst-product-blueinsights-95'
   },
   {
     id: 96,
@@ -1616,6 +1701,7 @@ const jobsData = [
       'Model curated marts and maintain data quality with dbt tests.',
     skills: ['dbt', 'SQL', 'Data Modeling', 'Git'],
     tags: ['dbt', 'analytics-eng'],
+    link: 'https://www.indeed.com/viewjob?jk=harborwarehouse-analytics-engineer-dbt-96'
   },
   {
     id: 97,
@@ -1632,6 +1718,7 @@ const jobsData = [
       'Ensure reliability and cost-efficiency of data platforms at scale.',
     skills: ['Kubernetes', 'Airflow', 'Kafka', 'Monitoring'],
     tags: ['sre', 'data'],
+    link: 'https://www.linkedin.com/jobs/view/data-platform-sre-at-bluepipelines-97'
   },
   {
     id: 98,
@@ -1648,6 +1735,7 @@ const jobsData = [
       'Assist in experimentation, model evaluation, and benchmark creation.',
     skills: ['Python', 'Pandas', 'Experimentation'],
     tags: ['intern', 'ml'],
+    link: 'https://www.naukri.com/job-listings-research-intern-ml-tideresearch-98'
   },
   {
     id: 99,
@@ -1664,6 +1752,7 @@ const jobsData = [
       'Define policies, lineage, and stewardship for trusted analytics.',
     skills: ['Governance', 'Catalog', 'Policies', 'SQL'],
     tags: ['governance', 'data'],
+    link: 'https://www.indeed.com/viewjob?jk=azuregoven-data-governance-specialist-99'
   },
   {
     id: 100,
@@ -1680,6 +1769,7 @@ const jobsData = [
       'Implement data tests, SLAs, and incident response for quality issues.',
     skills: ['dbt tests', 'Great Expectations', 'SQL', 'Python'],
     tags: ['data-quality', 'testing'],
+    link: 'https://www.linkedin.com/jobs/view/data-quality-engineer-at-coralquality-100'
   },
 
   // DevOps (101–110)
@@ -1698,6 +1788,7 @@ const jobsData = [
       'Operate Kubernetes clusters, GitOps flows, and observability stacks.',
     skills: ['Kubernetes', 'Helm', 'ArgoCD', 'Prometheus'],
     tags: ['k8s', 'gitops'],
+    link: 'https://www.naukri.com/job-listings-devops-engineer-kubernetes-blueops-101'
   },
   {
     id: 102,
@@ -1714,6 +1805,7 @@ const jobsData = [
       'Drive availability, latency SLOs, and incident response excellence.',
     skills: ['SLOs', 'SLIs', 'On-call', 'Chaos Engineering'],
     tags: ['sre', 'reliability'],
+    link: 'https://www.indeed.com/viewjob?jk=harborreliability-site-reliability-engineer-102'
   },
   {
     id: 103,
@@ -1730,6 +1822,7 @@ const jobsData = [
       'Automate releases, maintain pipelines, and improve rollback safety.',
     skills: ['CI/CD', 'GitHub Actions', 'Change Mgmt'],
     tags: ['release', 'ci'],
+    link: 'https://www.linkedin.com/jobs/view/release-engineer-at-aquarelease-103'
   },
   {
     id: 104,
@@ -1746,6 +1839,7 @@ const jobsData = [
       'Manage Terraform stacks, networking, and cloud costs effectively.',
     skills: ['Terraform', 'AWS', 'Azure', 'FinOps'],
     tags: ['infra', 'iac'],
+    link: 'https://www.naukri.com/job-listings-infrastructure-engineer-iac-coralinfra-104'
   },
   {
     id: 105,
@@ -1762,6 +1856,7 @@ const jobsData = [
       'Assist with CI/CD, containerization, and environment automation tasks.',
     skills: ['Docker', 'Bash', 'YAML'],
     tags: ['intern', 'devops'],
+    link: 'https://www.indeed.com/viewjob?jk=tideops-devops-intern-105'
   },
   {
     id: 106,
@@ -1778,6 +1873,7 @@ const jobsData = [
       'Scale shared platform services and oversee multi-tenant reliability.',
     skills: ['Kubernetes', 'Service Mesh', 'Observability'],
     tags: ['platform', 'sre'],
+    link: 'https://www.linkedin.com/jobs/view/platform-sre-at-blueplatform-106'
   },
   {
     id: 107,
@@ -1794,6 +1890,7 @@ const jobsData = [
       'Embed security scanners and policies in CI/CD and runtime.',
     skills: ['SAST', 'DAST', 'OPA', 'Containers'],
     tags: ['devsecops', 'security'],
+    link: 'https://www.naukri.com/job-listings-devsecops-engineer-harborsecure-107'
   },
   {
     id: 108,
@@ -1810,6 +1907,7 @@ const jobsData = [
       'Design and operate Azure cloud resources with IaC discipline.',
     skills: ['Azure', 'Terraform', 'Networking', 'Security'],
     tags: ['azure', 'cloud'],
+    link: 'https://www.indeed.com/viewjob?jk=azurebay-cloud-engineer-azure-108'
   },
   {
     id: 109,
@@ -1826,6 +1924,7 @@ const jobsData = [
       'Build metrics, logs, traces pipelines and golden signals dashboards.',
     skills: ['OpenTelemetry', 'Prometheus', 'Grafana', 'Loki'],
     tags: ['observability', 'otel'],
+    link: 'https://www.linkedin.com/jobs/view/observability-engineer-at-coralsignal-109'
   },
   {
     id: 110,
@@ -1842,6 +1941,7 @@ const jobsData = [
       'Shadow SREs, learn incident response and reliability fundamentals.',
     skills: ['Linux', 'Monitoring', 'Documentation'],
     tags: ['intern', 'sre'],
+    link: 'https://www.naukri.com/job-listings-site-reliability-intern-aquareliability-110'
   },
 
   // QA (111–120)
@@ -1860,6 +1960,7 @@ const jobsData = [
       'Develop manual and automated test suites for web applications.',
     skills: ['Selenium', 'Cypress', 'Jest', 'TestRail'],
     tags: ['qa', 'automation'],
+    link: 'https://www.indeed.com/viewjob?jk=blueqa-qa-engineer-web-111'
   },
   {
     id: 112,
@@ -1876,6 +1977,7 @@ const jobsData = [
       'Automate API testing and integrate with CI/CD for fast feedback.',
     skills: ['Postman', 'RestAssured', 'Java', 'CI/CD'],
     tags: ['sdet', 'api-testing'],
+    link: 'https://www.linkedin.com/jobs/view/sdet-api-at-harbortest-112'
   },
   {
     id: 113,
@@ -1892,6 +1994,7 @@ const jobsData = [
       'Design and execute load, stress, and endurance tests.',
     skills: ['JMeter', 'k6', 'APM', 'Scripting'],
     tags: ['performance', 'k6'],
+    link: 'https://www.naukri.com/job-listings-performance-test-engineer-coralperf-113'
   },
   {
     id: 114,
@@ -1908,6 +2011,7 @@ const jobsData = [
       'Own test strategy, coverage, and release quality for squads.',
     skills: ['Leadership', 'Automation', 'CI/CD'],
     tags: ['qa', 'lead'],
+    link: 'https://www.indeed.com/viewjob?jk=aquaassure-qa-lead-114'
   },
   {
     id: 115,
@@ -1924,6 +2028,7 @@ const jobsData = [
       'Build E2E coverage using Playwright with TypeScript.',
     skills: ['Playwright', 'TypeScript', 'GitHub Actions'],
     tags: ['e2e', 'playwright'],
+    link: 'https://www.linkedin.com/jobs/view/automation-engineer-playwright-at-bluescripts-115'
   },
   {
     id: 116,
@@ -1940,6 +2045,7 @@ const jobsData = [
       'Test native and cross-platform apps, expand automation.',
     skills: ['Appium', 'Android', 'iOS', 'CI'],
     tags: ['mobile', 'qa'],
+    link: 'https://www.naukri.com/job-listings-mobile-qa-engineer-harbormobile-116'
   },
   {
     id: 117,
@@ -1956,6 +2062,7 @@ const jobsData = [
       'Write test cases, execute regression, and document defects.',
     skills: ['Test Cases', 'Jira', 'Exploratory Testing'],
     tags: ['qa', 'analyst'],
+    link: 'https://www.indeed.com/viewjob?jk=tidequality-qa-analyst-117'
   },
   {
     id: 118,
@@ -1972,6 +2079,7 @@ const jobsData = [
       'Lead multiple QA teams, define processes, and quality metrics.',
     skills: ['Management', 'Automation Strategy', 'Hiring'],
     tags: ['qa', 'management'],
+    link: 'https://www.linkedin.com/jobs/view/qa-manager-at-coralassurance-118'
   },
   {
     id: 119,
@@ -1988,6 +2096,7 @@ const jobsData = [
       'Assist QA team with documentation and smoke testing.',
     skills: ['Documentation', 'Basics of Testing'],
     tags: ['intern', 'qa'],
+    link: 'https://www.naukri.com/job-listings-qa-intern-aquatest-119'
   },
   {
     id: 120,
@@ -2004,6 +2113,7 @@ const jobsData = [
       'Automate mobile tests using Appium and integrate with CI.',
     skills: ['Appium', 'JavaScript', 'CI/CD'],
     tags: ['automation', 'mobile'],
+    link: 'https://www.indeed.com/viewjob?jk=bluemobileqa-sdet-mobile-120'
   },
 
   // Product (121–130)
@@ -2022,6 +2132,7 @@ const jobsData = [
       'Own platform roadmap and drive adoption across product teams.',
     skills: ['Roadmapping', 'Stakeholder Mgmt', 'Analytics'],
     tags: ['platform', 'pm'],
+    link: 'https://www.linkedin.com/jobs/view/product-manager-platform-at-haborpm-121'
   },
   {
     id: 122,
@@ -2038,6 +2149,7 @@ const jobsData = [
       'Support product discovery, metrics, and spec writing.',
     skills: ['User Research', 'SQL', 'Docs'],
     tags: ['apm', 'intern'],
+    link: 'https://www.naukri.com/job-listings-associate-product-manager-blue-roadmap-122'
   },
   {
     id: 123,
@@ -2054,6 +2166,7 @@ const jobsData = [
       'Bridge engineering and product to deliver outcomes efficiently.',
     skills: ['APIs', 'Writing', 'Analytics'],
     tags: ['tpm', 'product'],
+    link: 'https://www.indeed.com/viewjob?jk=coraltpm-technical-product-manager-123'
   },
   {
     id: 124,
@@ -2070,6 +2183,7 @@ const jobsData = [
       'Lead activation and retention initiatives via experimentation.',
     skills: ['A/B Testing', 'CRM', 'SQL'],
     tags: ['growth', 'experiments'],
+    link: 'https://www.linkedin.com/jobs/view/growth-product-manager-at-aquagrowth-124'
   },
   {
     id: 125,
@@ -2086,6 +2200,7 @@ const jobsData = [
       'Define product metrics, build dashboards, and run deep dives.',
     skills: ['SQL', 'Tableau', 'Experimentation'],
     tags: ['analytics', 'product'],
+    link: 'https://www.naukri.com/job-listings-product-analyst-tidemetrics-125'
   },
   {
     id: 126,
@@ -2102,6 +2217,7 @@ const jobsData = [
       'Manage cross-team dependencies, risks, and delivery timelines.',
     skills: ['Program Mgmt', 'Risk Mgmt', 'Scrum'],
     tags: ['program', 'delivery'],
+    link: 'https://www.indeed.com/viewjob?jk=blueprograms-program-manager-126'
   },
   {
     id: 127,
@@ -2118,6 +2234,7 @@ const jobsData = [
       'Design intuitive experiences from research to high-fidelity prototypes.',
     skills: ['Figma', 'Prototyping', 'Research'],
     tags: ['ux', 'design'],
+    link: 'https://www.linkedin.com/jobs/view/product-designer-ux-at-harbordesign-127'
   },
   {
     id: 128,
@@ -2134,6 +2251,7 @@ const jobsData = [
       'Improve execution via tooling, process, and analytics.',
     skills: ['Jira', 'SQL', 'Automation'],
     tags: ['prod-ops', 'process'],
+    link: 'https://www.naukri.com/job-listings-product-operations-analyst-aquaops-128'
   },
   {
     id: 129,
@@ -2150,6 +2268,7 @@ const jobsData = [
       'Define AI features with measurable outcomes and responsible AI practices.',
     skills: ['AI/ML Basics', 'Metrics', 'Ethics'],
     tags: ['ai', 'product'],
+    link: 'https://www.indeed.com/viewjob?jk=coralai-product-manager-ai-129'
   },
   {
     id: 130,
@@ -2166,6 +2285,7 @@ const jobsData = [
       'Write concise UI copy that clarifies and guides users.',
     skills: ['Microcopy', 'UX', 'Content Strategy'],
     tags: ['ux-writing', 'content'],
+    link: 'https://www.linkedin.com/jobs/view/associate-ux-writer-at-bluewords-130'
   },
 
   // Marketing (131–140)
@@ -2184,6 +2304,7 @@ const jobsData = [
       'Drive SEO strategy across content, technical, and outreach.',
     skills: ['SEO', 'GA4', 'Content'],
     tags: ['seo', 'marketing'],
+    link: 'https://www.naukri.com/job-listings-seo-manager-aquaorganic-131'
   },
   {
     id: 132,
@@ -2200,6 +2321,7 @@ const jobsData = [
       'Create content that drives traffic and conversions.',
     skills: ['Copywriting', 'SEO', 'Analytics'],
     tags: ['content', 'growth'],
+    link: 'https://www.indeed.com/viewjob?jk=bluecontent-content-marketer-132'
   },
   {
     id: 133,
@@ -2216,6 +2338,7 @@ const jobsData = [
       'Scale paid campaigns with experimentation and clear guardrails.',
     skills: ['Google Ads', 'Meta Ads', 'Attribution'],
     tags: ['paid', 'performance'],
+    link: 'https://www.linkedin.com/jobs/view/performance-marketer-at-harborgrowth-133'
   },
   {
     id: 134,
@@ -2232,6 +2355,7 @@ const jobsData = [
       'Plan and execute social content calendars and campaigns.',
     skills: ['Content', 'Brand', 'Analytics'],
     tags: ['social', 'brand'],
+    link: 'https://www.naukri.com/job-listings-social-media-strategist-coralsocial-134'
   },
   {
     id: 135,
@@ -2248,6 +2372,7 @@ const jobsData = [
       'Analyze channel performance and suggest optimization opportunities.',
     skills: ['SQL', 'GA4', 'Excel'],
     tags: ['analytics', 'marketing'],
+    link: 'https://www.indeed.com/viewjob?jk=bluemetrics-marketing-analyst-135'
   },
   {
     id: 136,
@@ -2264,6 +2389,7 @@ const jobsData = [
       'Define brand narrative and maintain consistency across touchpoints.',
     skills: ['Brand', 'Creatives', 'Leadership'],
     tags: ['brand', 'strategy'],
+    link: 'https://www.linkedin.com/jobs/view/brand-manager-at-aquabranding-136'
   },
   {
     id: 137,
@@ -2280,6 +2406,7 @@ const jobsData = [
       'Build lifecycle journeys and optimize deliverability.',
     skills: ['CRM', 'Segmentation', 'Copywriting'],
     tags: ['email', 'crm'],
+    link: 'https://www.naukri.com/job-listings-email-marketing-specialist-harborcrm-137'
   },
   {
     id: 138,
@@ -2296,6 +2423,7 @@ const jobsData = [
       'Own media relations and external communications.',
     skills: ['PR', 'Communication', 'Crisis Mgmt'],
     tags: ['pr', 'comms'],
+    link: 'https://www.indeed.com/viewjob?jk=coralpr-pr-manager-138'
   },
   {
     id: 139,
@@ -2312,6 +2440,7 @@ const jobsData = [
       'Design creatives for campaigns across channels.',
     skills: ['Illustrator', 'Photoshop', 'Branding'],
     tags: ['design', 'marketing'],
+    link: 'https://www.linkedin.com/jobs/view/graphic-designer-marketing-at-bluecreative-139'
   },
   {
     id: 140,
@@ -2328,6 +2457,7 @@ const jobsData = [
       'Manage influencer partnerships and measure ROI.',
     skills: ['Negotiation', 'Campaigns', 'Analytics'],
     tags: ['influencer', 'growth'],
+    link: 'https://www.naukri.com/job-listings-influencer-marketing-specialist-aquainfluence-140'
   },
 
   // Sales (141–150)
@@ -2346,6 +2476,7 @@ const jobsData = [
       'Prospect and qualify leads for the sales pipeline.',
     skills: ['Prospecting', 'CRM', 'Outreach'],
     tags: ['sdr', 'sales'],
+    link: 'https://www.indeed.com/viewjob?jk=harborsales-sales-development-representative-141'
   },
   {
     id: 142,
@@ -2362,6 +2493,7 @@ const jobsData = [
       'Run full-cycle sales from demo to close.',
     skills: ['Demo', 'Negotiation', 'Forecasting'],
     tags: ['sales', 'closing'],
+    link: 'https://www.linkedin.com/jobs/view/account-executive-mid-market-at-bluedeals-142'
   },
   {
     id: 143,
@@ -2378,6 +2510,7 @@ const jobsData = [
       'Close large deals and manage complex stakeholder maps.',
     skills: ['Enterprise Sales', 'RFP', 'Negotiation'],
     tags: ['enterprise', 'b2b'],
+    link: 'https://www.naukri.com/job-listings-enterprise-account-executive-coralenterprise-143'
   },
   {
     id: 144,
@@ -2394,6 +2527,7 @@ const jobsData = [
       'Drive forecasting accuracy and tooling for the sales org.',
     skills: ['Salesforce', 'Analytics', 'Process'],
     tags: ['sales-ops', 'forecasting'],
+    link: 'https://www.indeed.com/viewjob?jk=aquaopssales-sales-operations-manager-144'
   },
   {
     id: 145,
@@ -2410,6 +2544,7 @@ const jobsData = [
       'Develop and manage reseller and distributor networks.',
     skills: ['Partnerships', 'Enablement', 'Contracts'],
     tags: ['channel', 'alliances'],
+    link: 'https://www.linkedin.com/jobs/view/channel-sales-manager-at-bluechannel-145'
   },
   {
     id: 146,
@@ -2426,6 +2561,7 @@ const jobsData = [
       'Conduct discovery calls and schedule demos for AEs.',
     skills: ['Prospecting', 'Communication', 'CRM'],
     tags: ['inside-sales', 'leads'],
+    link: 'https://www.naukri.com/job-listings-inside-sales-executive-harborinside-146'
   },
   {
     id: 147,
@@ -2442,6 +2578,7 @@ const jobsData = [
       'Support partnership sourcing and activation efforts.',
     skills: ['Outreach', 'Coordination', 'Contracts'],
     tags: ['partnerships', 'alliances'],
+    link: 'https://www.indeed.com/viewjob?jk=coralallies-partnerships-associate-147'
   },
   {
     id: 148,
@@ -2458,6 +2595,7 @@ const jobsData = [
       'Drive adoption and expansion within assigned accounts.',
     skills: ['Onboarding', 'Renewals', 'Upsell'],
     tags: ['success', 'retention'],
+    link: 'https://www.linkedin.com/jobs/view/customer-success-manager-at-bluesuccess-148'
   },
   {
     id: 149,
@@ -2474,6 +2612,7 @@ const jobsData = [
       'Create playbooks and training for sales teams.',
     skills: ['Training', 'Content', 'Metrics'],
     tags: ['enablement', 'sales'],
+    link: 'https://www.naukri.com/job-listings-sales-enablement-specialist-aquaenable-149'
   },
   {
     id: 150,
@@ -2490,6 +2629,7 @@ const jobsData = [
       'Assist SDRs with research, outreach, and CRM hygiene.',
     skills: ['Research', 'CRM', 'Communication'],
     tags: ['intern', 'sales'],
+    link: 'https://www.indeed.com/viewjob?jk=coralsales-sales-intern-150'
   },
 
   // Design (151–160)
@@ -2508,6 +2648,7 @@ const jobsData = [
       'Design intuitive workflows for enterprise web applications.',
     skills: ['Figma', 'Prototyping', 'Design Systems'],
     tags: ['b2b', 'ux'],
+    link: 'https://www.linkedin.com/jobs/view/product-designer-b2b-at-harbordesigns-151'
   },
   {
     id: 152,
@@ -2524,6 +2665,7 @@ const jobsData = [
       'Create visual assets for marketing and product.',
     skills: ['Illustrator', 'Photoshop', 'Branding'],
     tags: ['visual', 'graphics'],
+    link: 'https://www.naukri.com/job-listings-visual-designer-bluecanvas-152'
   },
   {
     id: 153,
@@ -2540,6 +2682,7 @@ const jobsData = [
       'Plan and run studies to inform product decisions.',
     skills: ['Interviews', 'Usability Testing', 'Analysis'],
     tags: ['research', 'ux'],
+    link: 'https://www.indeed.com/viewjob?jk=aquaux-ux-researcher-153'
   },
   {
     id: 154,
@@ -2556,6 +2699,7 @@ const jobsData = [
       'Craft interaction patterns and micro-interactions.',
     skills: ['Prototyping', 'Motion', 'Accessibility'],
     tags: ['ixd', 'motion'],
+    link: 'https://www.linkedin.com/jobs/view/interaction-designer-at-coralix-154'
   },
   {
     id: 155,
@@ -2572,6 +2716,7 @@ const jobsData = [
       'Build and maintain code-based component libraries.',
     skills: ['React', 'Storybook', 'Tokens'],
     tags: ['design-system', 'frontend'],
+    link: 'https://www.naukri.com/job-listings-design-systems-engineer-blueds-155'
   },
   {
     id: 156,
@@ -2588,6 +2733,7 @@ const jobsData = [
       'Create pixel-perfect UI mockups and support handoff.',
     skills: ['Figma', 'UI', 'Handoff'],
     tags: ['ui', 'design'],
+    link: 'https://www.indeed.com/viewjob?jk=harborui-ui-designer-156'
   },
   {
     id: 157,
@@ -2604,6 +2750,7 @@ const jobsData = [
       'Write clear, helpful copy for product interfaces.',
     skills: ['Microcopy', 'Content Strategy', 'UX'],
     tags: ['ux-writing', 'content'],
+    link: 'https://www.linkedin.com/jobs/view/ux-writer-at-aquawords-157'
   },
   {
     id: 158,
@@ -2620,6 +2767,7 @@ const jobsData = [
       'Manage design operations and cross-functional delivery.',
     skills: ['Operations', 'Coordination', 'Planning'],
     tags: ['design-ops', 'producer'],
+    link: 'https://www.naukri.com/job-listings-design-producer-coralflow-158'
   },
   {
     id: 159,
@@ -2636,6 +2784,7 @@ const jobsData = [
       'Ensure WCAG compliance and inclusive design practices.',
     skills: ['WCAG', 'Audit', 'Screen Readers'],
     tags: ['a11y', 'design'],
+    link: 'https://www.indeed.com/viewjob?jk=blueaccess-accessibility-specialist-159'
   },
   {
     id: 160,
@@ -2652,6 +2801,7 @@ const jobsData = [
       'Support the design team with assets and research.',
     skills: ['Figma', 'Research', 'Presentation'],
     tags: ['intern', 'design'],
+    link: 'https://www.linkedin.com/jobs/view/design-intern-at-aquadesign-160'
   },
 
   // Support (161–170)
@@ -2670,6 +2820,7 @@ const jobsData = [
       'Resolve customer queries via email and chat with empathy.',
     skills: ['Communication', 'Troubleshooting', 'CRM'],
     tags: ['support', 'csat'],
+    link: 'https://www.naukri.com/job-listings-customer-support-specialist-harborhelp-161'
   },
   {
     id: 162,
@@ -2686,6 +2837,7 @@ const jobsData = [
       'Handle L2 technical issues and write KB articles.',
     skills: ['Linux', 'Networking', 'Scripting'],
     tags: ['tech-support', 'l2'],
+    link: 'https://www.indeed.com/viewjob?jk=blueassist-technical-support-engineer-162'
   },
   {
     id: 163,
@@ -2702,6 +2854,7 @@ const jobsData = [
       'Assist with onboarding, QBRs, and adoption tracking.',
     skills: ['Onboarding', 'Communication', 'Reporting'],
     tags: ['success', 'associate'],
+    link: 'https://www.linkedin.com/jobs/view/customer-success-associate-at-coralsuccess-163'
   },
   {
     id: 164,
@@ -2718,6 +2871,7 @@ const jobsData = [
       'Lead support specialists and drive SLA improvements.',
     skills: ['Leadership', 'SLA Mgmt', 'Zendesk'],
     tags: ['support', 'lead'],
+    link: 'https://www.naukri.com/job-listings-support-team-lead-aquacare-164'
   },
   {
     id: 165,
@@ -2734,6 +2888,7 @@ const jobsData = [
       'Engage with users on community channels and triage feedback.',
     skills: ['Community', 'Social', 'Writing'],
     tags: ['community', 'support'],
+    link: 'https://www.indeed.com/viewjob?jk=bluecommunity-community-support-165'
   },
   {
     id: 166,
@@ -2750,6 +2905,7 @@ const jobsData = [
       'Support SDKs/CLIs and triage GitHub issues with repros.',
     skills: ['Git', 'CLI', 'JavaScript'],
     tags: ['devtools', 'support'],
+    link: 'https://www.linkedin.com/jobs/view/support-engineer-devtools-at-harbordevsupport-166'
   },
   {
     id: 167,
@@ -2766,6 +2922,7 @@ const jobsData = [
       'Provide support for US time zones; primarily email and chat.',
     skills: ['English', 'CRM', 'Troubleshooting'],
     tags: ['night-shift', 'support'],
+    link: 'https://www.naukri.com/job-listings-technical-support-specialist-night-shift-aquaassist-167'
   },
   {
     id: 168,
@@ -2782,6 +2939,7 @@ const jobsData = [
       'Guide customers through onboarding to time-to-value.',
     skills: ['Training', 'Docs', 'Coordination'],
     tags: ['onboarding', 'success'],
+    link: 'https://www.indeed.com/viewjob?jk=coralonboard-onboarding-specialist-168'
   },
   {
     id: 169,
@@ -2798,6 +2956,7 @@ const jobsData = [
       'Drive renewals motions and identify expansion opportunities.',
     skills: ['Negotiation', 'Metrics', 'Account Mgmt'],
     tags: ['renewals', 'success'],
+    link: 'https://www.linkedin.com/jobs/view/renewals-manager-at-bluerenew-169'
   },
   {
     id: 170,
@@ -2814,6 +2973,7 @@ const jobsData = [
       'Assist with ticket triage and documentation updates.',
     skills: ['Communication', 'Documentation', 'Basics of Support'],
     tags: ['intern', 'support'],
+    link: 'https://www.naukri.com/job-listings-customer-support-intern-harborhelpdesk-170'
   },
 
   // Operations/HR/Finance (171–180)
@@ -2832,6 +2992,7 @@ const jobsData = [
       'Build dashboards, automate workflows, and track OKRs.',
     skills: ['SQL', 'Excel', 'Automation'],
     tags: ['ops', 'analytics'],
+    link: 'https://www.indeed.com/viewjob?jk=blueopscenter-operations-analyst-171'
   },
   {
     id: 172,
@@ -2848,6 +3009,7 @@ const jobsData = [
       'Optimize processes and run cross-functional initiatives.',
     skills: ['Process', 'Stakeholder Mgmt', 'Leadership'],
     tags: ['ops', 'process'],
+    link: 'https://www.linkedin.com/jobs/view/business-operations-manager-at-harborbizops-172'
   },
   {
     id: 173,
@@ -2864,6 +3026,7 @@ const jobsData = [
       'Manage vendor evaluations and purchase orders.',
     skills: ['Negotiation', 'Vendor Mgmt', 'Compliance'],
     tags: ['procurement', 'vendor'],
+    link: 'https://www.naukri.com/job-listings-procurement-specialist-coralprocure-173'
   },
   {
     id: 174,
@@ -2880,6 +3043,7 @@ const jobsData = [
       'Run HR ops, onboarding, engagement, and policy compliance.',
     skills: ['Onboarding', 'HRIS', 'Policy'],
     tags: ['hr', 'ops'],
+    link: 'https://www.indeed.com/viewjob?jk=aquapeople-hr-generalist-174'
   },
   {
     id: 175,
@@ -2896,6 +3060,7 @@ const jobsData = [
       'Manage hiring pipeline for tech and non-tech roles.',
     skills: ['Sourcing', 'ATS', 'Interviewing'],
     tags: ['recruiting', 'talent'],
+    link: 'https://www.linkedin.com/jobs/view/talent-acquisition-partner-at-bluehirepro-175'
   },
   {
     id: 176,
@@ -2912,6 +3077,7 @@ const jobsData = [
       'Run payroll cycles and maintain compliance.',
     skills: ['Payroll', 'Compliance', 'Excel'],
     tags: ['payroll', 'finance'],
+    link: 'https://www.naukri.com/job-listings-payroll-specialist-harborpayroll-176'
   },
   {
     id: 177,
@@ -2928,6 +3094,7 @@ const jobsData = [
       'Budgeting, forecasting, and monthly variance analysis.',
     skills: ['Excel', 'Modeling', 'SQL'],
     tags: ['fp&a', 'forecasting'],
+    link: 'https://www.indeed.com/viewjob?jk=coralfinance-finance-analyst-fpa-177'
   },
   {
     id: 178,
@@ -2944,6 +3111,7 @@ const jobsData = [
       'Manage invoicing, collections, vendor payments, and reconciliations.',
     skills: ['Tally', 'Invoicing', 'Reconciliation'],
     tags: ['ar', 'ap'],
+    link: 'https://www.linkedin.com/jobs/view/accounts-executive-ar-ap-at-aquaaccounts-178'
   },
   {
     id: 179,
@@ -2960,6 +3128,7 @@ const jobsData = [
       'Ensure regulatory compliance and audit readiness.',
     skills: ['IFRS', 'SOX', 'Audit'],
     tags: ['compliance', 'audit'],
+    link: 'https://www.naukri.com/job-listings-compliance-officer-bluecompliance-179'
   },
   {
     id: 180,
@@ -2976,6 +3145,7 @@ const jobsData = [
       'Support ops team with reporting and process documentation.',
     skills: ['Excel', 'Documentation', 'Communication'],
     tags: ['intern', 'ops'],
+    link: 'https://www.indeed.com/viewjob?jk=harboropsschool-operations-intern-180'
   },
 ];
 
