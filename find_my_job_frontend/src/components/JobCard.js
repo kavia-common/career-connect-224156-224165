@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { formatINRRange } from '../utils/currency';
 
 // PUBLIC_INTERFACE
 function JobCard({ job }) {
@@ -135,8 +136,7 @@ function JobCard({ job }) {
         {job.experience && <span style={metaPill}>🎯 {job.experience}</span>}
         {job.salary && (
           <span style={metaPill}>
-            💰 ${job.salary.min.toLocaleString()} - $
-            {job.salary.max.toLocaleString()}
+            💰 {formatINRRange(job.salary.min, job.salary.max, { compact: true })}
           </span>
         )}
       </div>

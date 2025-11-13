@@ -148,7 +148,7 @@ function FilterBar({ filters, onChange }) {
       </div>
 
       <div style={{ ...groupStyle, borderBottom: 'none', marginBottom: 0 }}>
-        <div style={sectionTitle}>Minimum Salary</div>
+        <div style={sectionTitle}>Salary (₹)</div>
         <div style={rangeWrap}>
           <input
             type="range"
